@@ -1,0 +1,19 @@
+{
+  "name": "Paylocity Servers",
+  "version": "3.0",
+  "description": "Paylocity Servers",
+  "permissions": ["storage"],
+  "action":{
+	"default_popup": "PaylocityServers.html",
+	"default_title": "Quickly navigate to all Paylocity environments",
+	"default_icon": "icon.png"
+  },
+  "icons":{
+	"128":"icon.png"
+  }, 
+  "options_ui":{
+	"page": "options.html",
+	"open_in_tab": true
+  },
+  "manifest_version": 3
+}
