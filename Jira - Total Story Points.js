@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Cumulative Story Points Tracker
+// @name         Jira - Total Story Points
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Track Story Points with reset on search/filter change
