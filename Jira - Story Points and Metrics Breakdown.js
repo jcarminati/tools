@@ -116,10 +116,11 @@ function updateFooter() {
             return;
         }
         Object.entries(map).forEach(([k, v]) => {
-            const row = document.createElement('div');
-            row.textContent = `${k} - ${v.count} issues | ${v.points} pts`;
-            row.style.marginLeft = '8px';
-            container.appendChild(row);
+        const percent = Math.round((v.count / state.issueCount) * 100);
+        const row = document.createElement('div');
+        row.textContent = `${k} - ${v.count} issues | ${v.points} pts (${percent}%)`;
+        row.style.marginLeft = '8px';
+        container.appendChild(row);
         });
     };
 
